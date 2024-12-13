@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Source Code Pro";
+    src: url('fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf') format('truetype');
+}
+.body_black {
+    background-color: hsl(0deg, 0%, 0%); /* black */
+    color: hsl(0deg, 100%, 100%); /* white */
+    text-decoration: none;
+}
+.body_black a{
+    background-color: hsl(0deg, 0%, 0%); /* black */
+    color: hsl(0deg, 100%, 100%); /* white */
+    text-decoration: none;
+}
+.body_black a:hover{
+    background-color: hsl(0deg, 0%, 0%); /* black */
+    color: hsl(0deg, 100%, 100%); /* white */
+    text-decoration: underline;
+}
+
+#p5_sketch { /* he p5 sketch div. Ensure the canvas is aligned to the centre */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+}
+
+#container {
+    min-width: 500px;
+    horiz-align: center;
+    width: 80vw;
+    margin: 0 auto; /* center horizontally */
+}
+
+.header_main {
+    font-family: "Source Code Pro", "Open Sans", sans-serif; /* fallback fonts are important! */
+    font-size: 28px;
+    max-width: 70em;
+}
+.paragraph_base, .base_text {
+    font-family: "Source Code Pro", "Open Sans", sans-serif;
+    font-size: 1rem; /* set font size in relation to default text size */
+    margin: auto;
+    line-height: 175%; /* increased line height for better readability */
+    max-width: 70em; /* setting the line width in relation to how many characters fit */
+}
+
+.paragraph_base a {
+    text-shadow:
+        0 0 3px blue,
+        0 0 5px blue,
+        0 0 7px blue,
+        0 0 10px blue,
+        0 0 13px darkblue,
+        0 0 17px darkblue,
+        0 0 21px navy;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 0.85rem;
+    padding-top: 1.5rem;
+    font-family: "Source Code Pro", "Open Sans", sans-serif;
+    color: #fff;
+}
